@@ -4,4 +4,5 @@
       <slot />
     </div>
   </div>
+  <LayoutFooter />
 </template>
