@@ -1,5 +1,11 @@
 ---
 theme: ./
+title: Galaxy Theme
+themeConfig:
+  twitter: datarootsio
+  github: datarootsio
+  linkedin: company/dataroots
+favicon: 'https://dataroots.io/branding/logo/symbol-rainbow.png'
 ---
 
 # Slidev Theme Starter
@@ -16,15 +22,18 @@ Presentation slides for developers
 
 # What is Slidev?
 
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
+Slidev is a slide maker and presentation tool designed for developers. It
+includes the following features:
 
 - 📝 **Text-based** - focus on your content with Markdown, then style it later
 - 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with
+  autocompletion
 - 🤹 **Interactive** - embed Vue components to enhance your expressions
 - 🎥 **Recording** - built-in recording and camera view
 - 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
+- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible
+  in Slidev
 
 <br>
 <br>
@@ -42,7 +51,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 |                                                      |                             |
 | ---------------------------------------------------- | --------------------------- |
 | <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd>  | previous animation or slide |
+| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd>   | previous animation or slide |
 | <kbd>up</kbd>                                        | previous slide              |
 | <kbd>down</kbd>                                      | next slide                  |
 
@@ -55,18 +64,22 @@ image: https://cover.sli.dev
 
 Use code snippets and get the highlighting directly!
 
+wow
+
+much wow!
+
 ```ts
 interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
+  id: number;
+  firstName: string;
+  lastName: string;
+  role: string;
 }
 
 function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
+  const user = getUser(id);
+  const newUser = { ...user, ...update };
+  saveUser(id, newUser);
 }
 ```
 
@@ -81,18 +94,19 @@ Use code snippets and get the highlighting directly!
 
 ```ts
 interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
+  id: number;
+  firstName: string;
+  lastName: string;
+  role: string;
 }
 
 function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
+  const user = getUser(id);
+  const newUser = { ...user, ...update };
+  saveUser(id, newUser);
 }
 ```
+
 ---
 layout: center
 class: "text-center"
@@ -100,4 +114,5 @@ class: "text-center"
 
 # Learn More
 
-[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+[Documentation](https://sli.dev) /
+[GitHub Repo](https://github.com/slidevjs/slidev)
