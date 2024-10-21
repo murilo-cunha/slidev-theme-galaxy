@@ -4,7 +4,6 @@
   --slidev-theme-primary: #38b580;
 }
 
-.slidev-layout.default,
 .slidev-layout.center,
 .slidev-layout.cover,
 .slidev-layout.intro {
@@ -23,7 +22,9 @@
   table + h2 {
     @apply mt-10;
   }
+}
 
+.slidev-layout {
   background-image: url("../assets/galaxy.png");
   background-repeat: no-repeat;
   background-position: center;
